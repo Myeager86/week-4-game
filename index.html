@@ -1,1 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style2.css">
+    <title>Crystal Game</title>
+</head>
+
+<body>
+    <div class="jumbotron">
+        <h1 class="display-3">Crystals Collector</h1>
+        <p class="lead">The aim of the game is to get your number to match the random number, this is all possible!</p>
+        <hr class="my-4">
+        <p>
+            As you click on the images of crystals below you will notice that your number (shown at the bottom of the page) changes.
+            It is up to you to determine the right crystals to click to match ytour number to the random number!
+        </p>
+    </div>
+    <div id="crystals">
+        </div>
+    <div class="row">
+    <div class=" col-md-4 card text-white bg-primary mb-3" style="max-width: 20rem;">
+        <div class="card-header">Random number</div>
+        <div class="card-body">
+            <p class="card-text" id="randomNumberCard"></p>
+        </div>
+    </div>
+    <div class="col-md-4" id="winLose">
+    </div>
+    <div class="col-md-4 card text-white bg-secondary mb-3" style="max-width: 20rem;">
+        <div class="card-header">Your number</div>
+        <div class="card-body">
+            <p class="card-text" id="userNumber"></p>
+        </div>
+    </div>
+</div>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script type="text/javascript" src="./assets/game.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,11 @@
+.crystal-image {
+    width: 250px;
+    height: 250px;
+}
+
+#winLose {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(33, 100, 226);
+    font-size: 80px;
+}
