@@ -9,3 +9,13 @@
     color: rgb(33, 100, 226);
     font-size: 80px;
 }
+
+#body {
+    background-image: url("../images/background.jpg");
+}
+
+/* .jumbotron {
+    background-image: url("../images/background.jpg");
+    color: black;
+    font-weight: bolder;
+} */
